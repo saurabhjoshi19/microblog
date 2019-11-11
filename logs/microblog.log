@@ -3,3 +3,15 @@
 2019-11-08 09:42:54,567 INFO: Microblog Startup [in /Users/saurabhjoshi/microblog/app/__init__.py:42
 2019-11-08 10:08:57,895 INFO: Microblog Startup [in /Users/saurabhjoshi/microblog/app/__init__.py:42
 2019-11-09 10:44:37,937 INFO: Microblog Startup [in /Users/saurabhjoshi/microblog/app/__init__.py:44
+2019-11-11 22:50:44,994 INFO: Microblog Startup [in /Users/saurabhjoshi/microblog/app/__init__.py:44
+2019-11-11 22:50:55,528 ERROR: Exception on /reset_password_request [GET] [in /Users/saurabhjoshi/microblog/venv/lib/python3.7/site-packages/flask/app.py:1891
+Traceback (most recent call last):
+  File "/Users/saurabhjoshi/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/saurabhjoshi/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/saurabhjoshi/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/saurabhjoshi/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.

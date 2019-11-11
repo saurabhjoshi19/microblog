@@ -46,4 +46,4 @@ if not app.debug:
 from app import routes, models, errors
 
 if __name__ == "__main__":
-    Flask.run(debug=False)
+    Flask.run(debug=True)
